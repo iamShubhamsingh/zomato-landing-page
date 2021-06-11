@@ -16,15 +16,15 @@
     background-color: #fff;
   }
   
-  .navbar__brand {
+  .navbar_brand {
     width: 100px;
   }
   
-  .navbar__logo {
+  .navbar_logo {
     width: 100%;
   }
   
-  .nav__item {
+  .nav_item {
     background-image: linear-gradient(
       to right,
       #ff512f 0%,
@@ -38,7 +38,7 @@
     cursor: pointer;
   }
   
-  .nav__item:hover {
+  .nav_item:hover {
     border: 2px solid blue;
   }
   
@@ -50,10 +50,10 @@
   }
   
   @media (min-width: 1020px) {
-    .navbar__brand {
+    .navbar_brand {
       width: 150px;
     }
-    .nav__item {
+    .nav_item {
       padding: 20px;
       font-size: 20px;
     }
